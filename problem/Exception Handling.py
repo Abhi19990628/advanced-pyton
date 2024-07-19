@@ -1,5 +1,4 @@
 import sys
-
 no_1 = int(input("Enter your frist no : "))
 no_2 = int(input("enter your secound no :"))
 try:
