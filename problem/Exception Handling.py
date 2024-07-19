@@ -25,6 +25,7 @@ print("Everything is good")
 # first way to solve
 
 
+
 try:
     age = int(input("Enter your age :"))
     if age < 0:
