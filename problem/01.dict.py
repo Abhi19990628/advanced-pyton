@@ -1,3 +1,5 @@
+# dict method and this is basic 
+
 abhishek={
     "abhishek" : 100,
     "ravi" : 10 ,
