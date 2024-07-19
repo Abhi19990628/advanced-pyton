@@ -8,7 +8,8 @@ except :
     print(sys.exc_info()[0]) # in exception hadling get information for class
     print(sys.exc_info()[1]) # in Exception handling get infomation 
     
-    
+
+
     
 # in Execption handling using raise for print error for user 
 try:
