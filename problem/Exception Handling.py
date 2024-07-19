@@ -41,7 +41,7 @@ print("Everything is good")
 
 
 
-#user defined Exception handling\
+#user defined Exception handling
 class five_division_error(Exception):
     pass
     
