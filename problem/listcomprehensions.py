@@ -13,6 +13,7 @@ list = [num*2 for num in number ]
 print(list)
 
 
+# simple program
 Empty=[]
 for i in range(1,101):
     Empty.append(i)
