@@ -19,7 +19,6 @@ try:
     print("Your age is :", age)
 except ValueError:
     print("plz fillout the real value")
-    
 print("Everything is good")
 
 # first way to solve
