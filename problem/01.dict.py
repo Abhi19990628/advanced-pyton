@@ -6,6 +6,7 @@ abhishek={
     "rishab" : 120,
 }
 
+
 print(abhishek.items())
 print(abhishek.keys())
 print(abhishek.values())
