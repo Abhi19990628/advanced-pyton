@@ -54,7 +54,6 @@ try:
 
 except (five_division_error,ZeroDivisionError) as obj:
     print (obj)
-    
 print("rest of code")
 
 
