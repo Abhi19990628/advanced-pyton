@@ -12,6 +12,4 @@ mylist=[11,21,22,123,32,34]
 insertionsort(mylist)
 print(mylist)
 
-
-        
-    
+#ex3pense_share#
