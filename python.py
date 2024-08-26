@@ -25,6 +25,9 @@ Write a program which will find all such numbers which are divisible by 7 but ar
 between 2000 and 3200 (both included).
 The numbers obtained should be printed in a comma-separated sequence on a single line.
 
+
+
+
 Hints: 
 Consider use range(#begin, #end) method
 
@@ -225,6 +228,36 @@ Solution:
 items=[x for x in raw_input().split(',')]
 items.sort()
 print ','.join(items)
+#----------------------------------------#
+
+#----------------------------------------#
+
+Question 9
+Level 2
+
+Question£º
+Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+Suppose the following input is supplied to the program:
+Hello world
+Practice makes perfect
+Then, the output should be:
+HELLO WORLD
+PRACTICE MAKES PERFECT
+
+Hints:
+In case of input data being supplied to the question, it should be assumed to be a console input.
+
+Solution:
+lines = []
+while True:
+    s = raw_input()
+    if s:
+        lines.append(s.upper())
+    else:
+        break;
+
+for sentence in lines:
+    print sentence
 #----------------------------------------#
 
 #----------------------------------------#
