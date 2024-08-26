@@ -2163,3 +2163,52 @@ array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
 print array
 
 #----------------------------------------#
+Question:
+
+By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
+
+Hints:
+Use list comprehension to delete a bunch of element from a list.
+Use enumerate() to get (index, value) tuple.
+
+Solution:
+
+li = [12,24,35,70,88,120,155]
+li = [x for (i,x) in enumerate(li) if i not in (0,4,5)]
+print li
+
+
+
+#----------------------------------------#
+
+Question:
+
+By using list comprehension, please write a program to print the list after removing the value 24 in [12,24,35,24,88,120,155].
+
+Hints:
+Use list's remove method to delete a value.
+
+Solution:
+
+li = [12,24,35,24,88,120,155]
+li = [x for x in li if x!=24]
+print li
+
+
+#----------------------------------------#
+Question:
+
+With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.
+
+Hints:
+Use set() and "&=" to do set intersection operation.
+
+Solution:
+
+set1=set([1,3,6,78,35,55])
+set2=set([12,24,35,24,88,120,155])
+set1 &= set2
+li=list(set1)
+print li
+
+#----------------------------------------#
