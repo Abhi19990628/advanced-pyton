@@ -1999,3 +1999,40 @@ import random
 print random.sample([i for i in range(1,1001) if i%5==0 and i%7==0], 5)
 
 #----------------------------------------#
+
+Question:
+
+Please write a program to randomly print a integer number between 7 and 15 inclusive.
+
+
+
+Hints:
+Use random.randrange() to a random integer in a given range.
+
+
+Solution:
+
+import random
+print random.randrange(7,16)
+
+#----------------------------------------#
+
+Question:
+
+Please write a program to compress and decompress the string "hello world!hello world!hello world!hello world!".
+
+
+
+Hints:
+Use zlib.compress() and zlib.decompress() to compress and decompress a string.
+
+
+Solution:
+
+import zlib
+s = 'hello world!hello world!hello world!hello world!'
+t = zlib.compress(s)
+print t
+print zlib.decompress(t)
+
+#----------------------------------------#
