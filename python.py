@@ -2340,3 +2340,17 @@ s=raw_input()
 s = s[::2]
 print s
 #----------------------------------------#
+Question:
+
+Please write a program which prints all permutations of [1,2,3]
+
+
+Hints:
+Use itertools.permutations() to get permutations of list.
+
+Solution:
+
+import itertools
+print list(itertools.permutations([1,2,3]))
+
+#----------------------------------------#
